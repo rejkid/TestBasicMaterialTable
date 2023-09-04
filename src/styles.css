@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.mat-row.hovered {
+  /* background: #eee; */
+  background: red;
+}
+
+.mat-row.highlighted {
+  /* background: #999; */
+  background: green;
+}
+
+/*
+  This is a work around for checkbox bug in material row
+  https://github.com/angular/material2/issues/8600
+*/
+mat-cell.mat-cell, mat-header-cell.mat-header-cell {
+  overflow: visible;
+}
