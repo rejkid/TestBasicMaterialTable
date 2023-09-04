@@ -6,6 +6,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { CdkTableModule } from '@angular/cdk/table';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     FormsModule,
     MatTableModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    CdkTableModule
 
   ],
   providers: [],
