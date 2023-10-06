@@ -7,10 +7,12 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { CdkTableModule } from '@angular/cdk/table';
+import { DateInputDirective } from './dateinput.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DateInputDirective
   ],
   imports: [
     BrowserModule,
